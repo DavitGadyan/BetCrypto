@@ -1,0 +1,334 @@
+- generic [ref=f9e2]:
+  - navigation "Primary" [ref=f9e3]:
+    - link "Sportsbook" [ref=f9e4] [cursor=pointer]:
+      - /url: /sportsbook
+    - link "Casino" [ref=f9e11] [cursor=pointer]:
+      - /url: /casino
+    - link "Wallet" [ref=f9e15] [cursor=pointer]:
+      - /url: /wallet
+    - link "My Bets" [ref=f9e19] [cursor=pointer]:
+      - /url: /bets
+    - link "Settings" [ref=f9e22] [cursor=pointer]:
+      - /url: /settings
+    - link "Account" [ref=f9e26] [cursor=pointer]:
+      - /url: /settings
+      - text: DG
+  - banner [ref=f9e27]:
+    - generic [ref=f9e28]:
+      - textbox "Search" [ref=f9e33]:
+        - /placeholder: Search events, teams, games
+      - generic [ref=f9e34]:
+        - link [ref=f9e35] [cursor=pointer]:
+          - /url: /wallet
+        - button "Notifications" [ref=f9e37]
+  - main [ref=f9e42]:
+    - generic [ref=f9e43]:
+      - generic [ref=f9e44]:
+        - heading "Sportsbook" [level=1] [ref=f9e45]
+        - paragraph [ref=f9e46]: Every market priced in crypto and settled on-chain.
+      - generic [ref=f9e47]:
+        - button "Decimal" [ref=f9e48]
+        - tablist [ref=f9e50]:
+          - tab "All" [selected] [ref=f9e51]
+          - tab "Live" [ref=f9e52]
+          - tab "Upcoming" [ref=f9e59]
+    - generic [ref=f9e60]:
+      - generic [ref=f9e61] [cursor=pointer]:
+        - generic [ref=f9e69]: "Sport: All"
+        - combobox "Sport" [ref=f9e72]:
+          - option "All" [selected]
+          - option "Football"
+          - option "Basketball"
+          - option "American Football"
+          - option "Ice Hockey"
+      - generic [ref=f9e73] [cursor=pointer]:
+        - generic [ref=f9e79]: "League: All"
+        - combobox "League" [ref=f9e82]:
+          - option "All" [selected]
+          - option "Europa League"
+          - option "Premier League"
+          - option "NBA Preseason"
+          - option "NFL · Week 5"
+          - option "NHL"
+    - generic [ref=f9e83]:
+      - article [ref=f9e84]:
+        - generic [ref=f9e85]:
+          - generic [ref=f9e86]: LIVE 64'
+          - generic [ref=f9e88]:
+            - text: Europa League
+            - generic [ref=f9e89]: EU
+        - generic [ref=f9e90]:
+          - generic [ref=f9e91]:
+            - link [ref=f9e92] [cursor=pointer]:
+              - /url: /sportsbook/aston-villa-feyenoord
+              - heading "Aston Villa – Feyenoord" [level=2] [ref=f9e93]
+            - paragraph [ref=f9e94]: 2 – 1/Football
+          - generic [ref=f9e95]:
+            - generic [ref=f9e96]: 71%
+            - generic [ref=f9e100]: home win probability
+        - group "Odds for Aston Villa vs Feyenoord" [ref=f9e101]:
+          - button "1 1.36" [ref=f9e102] [cursor=pointer]:
+            - generic [ref=f9e103]: "1"
+            - generic [ref=f9e104]: "1.36"
+          - button "X 5.25" [ref=f9e105] [cursor=pointer]:
+            - generic [ref=f9e106]: X
+            - generic [ref=f9e107]: "5.25"
+          - button "2 8.60" [ref=f9e108] [cursor=pointer]:
+            - generic [ref=f9e109]: "2"
+            - generic [ref=f9e110]: "8.60"
+        - generic [ref=f9e111]:
+          - generic [ref=f9e112]: Cashout available
+          - link "+94 markets" [ref=f9e113] [cursor=pointer]:
+            - /url: /sportsbook/aston-villa-feyenoord
+      - article [ref=f9e116]:
+        - generic [ref=f9e117]:
+          - generic [ref=f9e118]: LIVE 23'
+          - generic [ref=f9e120]:
+            - text: Europa League
+            - generic [ref=f9e121]: EU
+        - generic [ref=f9e122]:
+          - generic [ref=f9e123]:
+            - link [ref=f9e124] [cursor=pointer]:
+              - /url: /sportsbook/real-betis-porto
+              - heading "Real Betis – FC Porto" [level=2] [ref=f9e125]
+            - paragraph [ref=f9e126]: 0 – 0/Football
+          - generic [ref=f9e127]:
+            - generic [ref=f9e128]: 38%
+            - generic [ref=f9e132]: home win probability
+        - group "Odds for Real Betis vs FC Porto" [ref=f9e133]:
+          - button "1 2.55" [ref=f9e134] [cursor=pointer]:
+            - generic [ref=f9e135]: "1"
+            - generic [ref=f9e136]: "2.55"
+          - button "X 2.95" [ref=f9e137] [cursor=pointer]:
+            - generic [ref=f9e138]: X
+            - generic [ref=f9e139]: "2.95"
+          - button "2 3.10" [ref=f9e140] [cursor=pointer]:
+            - generic [ref=f9e141]: "2"
+            - generic [ref=f9e142]: "3.10"
+        - generic [ref=f9e143]:
+          - generic [ref=f9e144]: Cashout available
+          - link "+112 markets" [ref=f9e145] [cursor=pointer]:
+            - /url: /sportsbook/real-betis-porto
+      - article [ref=f9e148]:
+        - generic [ref=f9e149]:
+          - generic [ref=f9e150]: LIVE 78'
+          - generic [ref=f9e152]:
+            - text: Europa League
+            - generic [ref=f9e153]: EU
+        - generic [ref=f9e154]:
+          - generic [ref=f9e155]:
+            - link [ref=f9e156] [cursor=pointer]:
+              - /url: /sportsbook/roma-fenerbahce
+              - heading "AS Roma – Fenerbahçe" [level=2] [ref=f9e157]
+            - paragraph [ref=f9e158]: 1 – 0/Football
+          - generic [ref=f9e159]:
+            - generic [ref=f9e160]: 83%
+            - generic [ref=f9e164]: home win probability
+        - group "Odds for AS Roma vs Fenerbahçe" [ref=f9e165]:
+          - button "1 1.22" [ref=f9e166] [cursor=pointer]:
+            - generic [ref=f9e167]: "1"
+            - generic [ref=f9e168]: "1.22"
+          - button "X 6.75" [ref=f9e169] [cursor=pointer]:
+            - generic [ref=f9e170]: X
+            - generic [ref=f9e171]: "6.75"
+          - button "2 15.00" [ref=f9e172] [cursor=pointer]:
+            - generic [ref=f9e173]: "2"
+            - generic [ref=f9e174]: "15.00"
+        - generic [ref=f9e175]:
+          - generic [ref=f9e176]: Cashout available
+          - link "+87 markets" [ref=f9e177] [cursor=pointer]:
+            - /url: /sportsbook/roma-fenerbahce
+      - article [ref=f9e180]:
+        - generic [ref=f9e181]:
+          - generic [ref=f9e182]: Sat 10 Oct, 17:30
+          - generic [ref=f9e183]:
+            - text: Premier League
+            - generic [ref=f9e184]: ENG
+        - generic [ref=f9e185]:
+          - generic [ref=f9e186]:
+            - link [ref=f9e187] [cursor=pointer]:
+              - /url: /sportsbook/arsenal-chelsea
+              - heading "Arsenal – Chelsea" [level=2] [ref=f9e188]
+            - paragraph [ref=f9e189]: Football
+          - generic [ref=f9e190]:
+            - generic [ref=f9e191]: 49%
+            - generic [ref=f9e195]: home win probability
+        - group "Odds for Arsenal vs Chelsea" [ref=f9e196]:
+          - button "1 1.95" [ref=f9e197] [cursor=pointer]:
+            - generic [ref=f9e198]: "1"
+            - generic [ref=f9e199]: "1.95"
+          - button "X 3.70" [ref=f9e200] [cursor=pointer]:
+            - generic [ref=f9e201]: X
+            - generic [ref=f9e202]: "3.70"
+          - button "2 3.95" [ref=f9e203] [cursor=pointer]:
+            - generic [ref=f9e204]: "2"
+            - generic [ref=f9e205]: "3.95"
+        - generic [ref=f9e206]:
+          - generic [ref=f9e207]: Cashout available
+          - link "+186 markets" [ref=f9e208] [cursor=pointer]:
+            - /url: /sportsbook/arsenal-chelsea
+      - article [ref=f9e211]:
+        - generic [ref=f9e212]:
+          - generic [ref=f9e213]: Sat 10 Oct, 15:00
+          - generic [ref=f9e214]:
+            - text: Premier League
+            - generic [ref=f9e215]: ENG
+        - generic [ref=f9e216]:
+          - generic [ref=f9e217]:
+            - link [ref=f9e218] [cursor=pointer]:
+              - /url: /sportsbook/man-city-brighton
+              - heading "Manchester City – Brighton" [level=2] [ref=f9e219]
+            - paragraph [ref=f9e220]: Football
+          - generic [ref=f9e221]:
+            - generic [ref=f9e222]: 66%
+            - generic [ref=f9e226]: home win probability
+        - group "Odds for Manchester City vs Brighton" [ref=f9e227]:
+          - button "1 1.44" [ref=f9e228] [cursor=pointer]:
+            - generic [ref=f9e229]: "1"
+            - generic [ref=f9e230]: "1.44"
+          - button "X 4.80" [ref=f9e231] [cursor=pointer]:
+            - generic [ref=f9e232]: X
+            - generic [ref=f9e233]: "4.80"
+          - button "2 7.25" [ref=f9e234] [cursor=pointer]:
+            - generic [ref=f9e235]: "2"
+            - generic [ref=f9e236]: "7.25"
+        - generic [ref=f9e237]:
+          - generic [ref=f9e238]: Cashout available
+          - link "+171 markets" [ref=f9e239] [cursor=pointer]:
+            - /url: /sportsbook/man-city-brighton
+      - article [ref=f9e242]:
+        - generic [ref=f9e243]:
+          - generic [ref=f9e244]: Sun 11 Oct, 16:30
+          - generic [ref=f9e245]:
+            - text: Premier League
+            - generic [ref=f9e246]: ENG
+        - generic [ref=f9e247]:
+          - generic [ref=f9e248]:
+            - link [ref=f9e249] [cursor=pointer]:
+              - /url: /sportsbook/liverpool-newcastle
+              - heading "Liverpool – Newcastle" [level=2] [ref=f9e250]
+            - paragraph [ref=f9e251]: Football
+          - generic [ref=f9e252]:
+            - generic [ref=f9e253]: 57%
+            - generic [ref=f9e257]: home win probability
+        - group "Odds for Liverpool vs Newcastle" [ref=f9e258]:
+          - button "1 1.68" [ref=f9e259] [cursor=pointer]:
+            - generic [ref=f9e260]: "1"
+            - generic [ref=f9e261]: "1.68"
+          - button "X 4.10" [ref=f9e262] [cursor=pointer]:
+            - generic [ref=f9e263]: X
+            - generic [ref=f9e264]: "4.10"
+          - button "2 5.00" [ref=f9e265] [cursor=pointer]:
+            - generic [ref=f9e266]: "2"
+            - generic [ref=f9e267]: "5.00"
+        - generic [ref=f9e268]:
+          - generic [ref=f9e269]: Cashout available
+          - link "+164 markets" [ref=f9e270] [cursor=pointer]:
+            - /url: /sportsbook/liverpool-newcastle
+      - article [ref=f9e273]:
+        - generic [ref=f9e274]:
+          - generic [ref=f9e275]: Sat 10 Oct, 04:00
+          - generic [ref=f9e276]:
+            - text: NBA Preseason
+            - generic [ref=f9e277]: USA
+        - generic [ref=f9e278]:
+          - generic [ref=f9e279]:
+            - link [ref=f9e280] [cursor=pointer]:
+              - /url: /sportsbook/lakers-warriors
+              - heading "LA Lakers – Golden State" [level=2] [ref=f9e281]
+            - paragraph [ref=f9e282]: Basketball
+          - generic [ref=f9e283]:
+            - generic [ref=f9e284]: 52%
+            - generic [ref=f9e288]: home win probability
+        - group "Odds for LA Lakers vs Golden State" [ref=f9e289]:
+          - button "1 1.87" [ref=f9e290] [cursor=pointer]:
+            - generic [ref=f9e291]: "1"
+            - generic [ref=f9e292]: "1.87"
+          - button "2 1.95" [ref=f9e293] [cursor=pointer]:
+            - generic [ref=f9e294]: "2"
+            - generic [ref=f9e295]: "1.95"
+        - generic [ref=f9e296]:
+          - generic [ref=f9e297]: Cashout available
+          - link "+58 markets" [ref=f9e298] [cursor=pointer]:
+            - /url: /sportsbook/lakers-warriors
+      - article [ref=f9e301]:
+        - generic [ref=f9e302]:
+          - generic [ref=f9e303]: Sun 11 Oct, 01:30
+          - generic [ref=f9e304]:
+            - text: NBA Preseason
+            - generic [ref=f9e305]: USA
+        - generic [ref=f9e306]:
+          - generic [ref=f9e307]:
+            - link [ref=f9e308] [cursor=pointer]:
+              - /url: /sportsbook/celtics-knicks
+              - heading "Boston Celtics – NY Knicks" [level=2] [ref=f9e309]
+            - paragraph [ref=f9e310]: Basketball
+          - generic [ref=f9e311]:
+            - generic [ref=f9e312]: 56%
+            - generic [ref=f9e316]: home win probability
+        - group "Odds for Boston Celtics vs NY Knicks" [ref=f9e317]:
+          - button "1 1.72" [ref=f9e318] [cursor=pointer]:
+            - generic [ref=f9e319]: "1"
+            - generic [ref=f9e320]: "1.72"
+          - button "2 2.12" [ref=f9e321] [cursor=pointer]:
+            - generic [ref=f9e322]: "2"
+            - generic [ref=f9e323]: "2.12"
+        - generic [ref=f9e324]:
+          - generic [ref=f9e325]: Cashout available
+          - link "+61 markets" [ref=f9e326] [cursor=pointer]:
+            - /url: /sportsbook/celtics-knicks
+      - article [ref=f9e329]:
+        - generic [ref=f9e330]:
+          - generic [ref=f9e331]: Sun 11 Oct, 21:25
+          - generic [ref=f9e332]:
+            - text: NFL · Week 5
+            - generic [ref=f9e333]: USA
+        - generic [ref=f9e334]:
+          - generic [ref=f9e335]:
+            - link [ref=f9e336] [cursor=pointer]:
+              - /url: /sportsbook/chiefs-bills
+              - heading "Kansas City – Buffalo" [level=2] [ref=f9e337]
+            - paragraph [ref=f9e338]: American Football
+          - generic [ref=f9e339]:
+            - generic [ref=f9e340]: 50%
+            - generic [ref=f9e344]: home win probability
+        - group "Odds for Kansas City vs Buffalo" [ref=f9e345]:
+          - button "1 1.91" [ref=f9e346] [cursor=pointer]:
+            - generic [ref=f9e347]: "1"
+            - generic [ref=f9e348]: "1.91"
+          - button "2 1.91" [ref=f9e349] [cursor=pointer]:
+            - generic [ref=f9e350]: "2"
+            - generic [ref=f9e351]: "1.91"
+        - generic [ref=f9e352]:
+          - generic [ref=f9e353]: Cashout available
+          - link "+142 markets" [ref=f9e354] [cursor=pointer]:
+            - /url: /sportsbook/chiefs-bills
+      - article [ref=f9e357]:
+        - generic [ref=f9e358]:
+          - generic [ref=f9e359]: Sun 11 Oct, 00:00
+          - generic [ref=f9e360]:
+            - text: NHL
+            - generic [ref=f9e361]: USA
+        - generic [ref=f9e362]:
+          - generic [ref=f9e363]:
+            - link [ref=f9e364] [cursor=pointer]:
+              - /url: /sportsbook/rangers-bruins
+              - heading "NY Rangers – Boston Bruins" [level=2] [ref=f9e365]
+            - paragraph [ref=f9e366]: Ice Hockey
+          - generic [ref=f9e367]:
+            - generic [ref=f9e368]: 41%
+            - generic [ref=f9e372]: home win probability
+        - group "Odds for NY Rangers vs Boston Bruins" [ref=f9e373]:
+          - button "1 2.30" [ref=f9e374] [cursor=pointer]:
+            - generic [ref=f9e375]: "1"
+            - generic [ref=f9e376]: "2.30"
+          - button "X 4.20" [ref=f9e377] [cursor=pointer]:
+            - generic [ref=f9e378]: X
+            - generic [ref=f9e379]: "4.20"
+          - button "2 2.45" [ref=f9e380] [cursor=pointer]:
+            - generic [ref=f9e381]: "2"
+            - generic [ref=f9e382]: "2.45"
+        - generic [ref=f9e383]:
+          - generic [ref=f9e384]: Cashout available
+          - link "+73 markets" [ref=f9e385] [cursor=pointer]:
+            - /url: /sportsbook/rangers-bruins

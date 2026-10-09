@@ -1,0 +1,185 @@
+- generic [ref=f5e2]:
+  - navigation "Primary" [ref=f5e3]:
+    - link "Betrium home" [ref=f5e4] [cursor=pointer]:
+      - /url: /
+      - text: B
+    - link "Sportsbook" [ref=f5e5] [cursor=pointer]:
+      - /url: /sportsbook
+    - link "Casino" [ref=f5e12] [cursor=pointer]:
+      - /url: /casino
+    - link "Wallet" [ref=f5e16] [cursor=pointer]:
+      - /url: /wallet
+    - link "My Bets" [ref=f5e20] [cursor=pointer]:
+      - /url: /bets
+    - link "Settings" [ref=f5e23] [cursor=pointer]:
+      - /url: /settings
+    - link "Account" [ref=f5e28] [cursor=pointer]:
+      - /url: /settings
+      - text: DG
+  - banner [ref=f5e29]:
+    - generic [ref=f5e30]:
+      - generic [ref=f5e31]:
+        - textbox "Search" [ref=f5e35]:
+          - /placeholder: Search events, teams, games
+        - generic [ref=f5e36]: /
+      - generic [ref=f5e37]:
+        - link "Deposit" [ref=f5e38] [cursor=pointer]:
+          - /url: /wallet
+        - button "Notifications" [ref=f5e41]
+  - main [ref=f5e46]:
+    - generic [ref=f5e47]:
+      - generic [ref=f5e48]:
+        - heading "Wallet" [level=1] [ref=f5e49]
+        - paragraph [ref=f5e50]: Balances, deposits and withdrawals across six chains.
+      - button "Export CSV" [ref=f5e52]
+    - generic [ref=f5e56]:
+      - generic [ref=f5e57]:
+        - generic [ref=f5e58]:
+          - 'button "Bitcoin +1.8% 24h 0.28431 BTC $34,516.40 In bets: 0.01250 / Pending: 0.00000" [pressed] [ref=f5e59]':
+            - generic [ref=f5e60]:
+              - generic [ref=f5e61]: Bitcoin
+              - generic [ref=f5e62]: +1.8% 24h
+            - generic [ref=f5e64]:
+              - paragraph [ref=f5e65]: 0.28431 BTC
+              - paragraph [ref=f5e66]: $34,516.40
+            - generic [ref=f5e71]:
+              - generic [ref=f5e72]: "In bets: 0.01250"
+              - generic [ref=f5e74]:
+                - generic [ref=f5e75]: /
+                - generic [ref=f5e76]: "Pending: 0.00000"
+          - 'button "Ethereum +0.9% 24h 2.4612 ETH $10,607.77 In bets: 0.1500 / Pending: 0.0000" [ref=f5e77]':
+            - generic [ref=f5e78]:
+              - generic [ref=f5e79]: Ethereum
+              - generic [ref=f5e80]: +0.9% 24h
+            - generic [ref=f5e82]:
+              - paragraph [ref=f5e83]: 2.4612 ETH
+              - paragraph [ref=f5e84]: $10,607.77
+            - generic [ref=f5e89]:
+              - generic [ref=f5e90]: "In bets: 0.1500"
+              - generic [ref=f5e92]:
+                - generic [ref=f5e93]: /
+                - generic [ref=f5e94]: "Pending: 0.0000"
+          - 'button "Solana −2.1% 24h 42.180 SOL $8,773.44 In bets: 6.500 / Pending: 0.000" [ref=f5e95]':
+            - generic [ref=f5e96]:
+              - generic [ref=f5e97]: Solana
+              - generic [ref=f5e98]: −2.1% 24h
+            - generic [ref=f5e100]:
+              - paragraph [ref=f5e101]: 42.180 SOL
+              - paragraph [ref=f5e102]: $8,773.44
+            - generic [ref=f5e107]:
+              - generic [ref=f5e108]: "In bets: 6.500"
+              - generic [ref=f5e110]:
+                - generic [ref=f5e111]: /
+                - generic [ref=f5e112]: "Pending: 0.000"
+          - 'button "Tron · TRC-20 0.0% 24h 1,250.00 USDT $1,250.00 In bets: 75.00 / Pending: 200.00" [ref=f5e113]':
+            - generic [ref=f5e114]:
+              - generic [ref=f5e115]: Tron · TRC-20
+              - generic [ref=f5e116]: 0.0% 24h
+            - generic [ref=f5e118]:
+              - paragraph [ref=f5e119]: 1,250.00 USDT
+              - paragraph [ref=f5e120]: $1,250.00
+            - generic [ref=f5e124]:
+              - generic [ref=f5e125]: "In bets: 75.00"
+              - generic [ref=f5e127]:
+                - generic [ref=f5e128]: /
+                - generic [ref=f5e129]: "Pending: 200.00"
+        - heading "Recent transactions" [level=2] [ref=f5e130]
+        - generic [ref=f5e131]:
+          - article [ref=f5e132]:
+            - generic [ref=f5e136]:
+              - paragraph [ref=f5e137]: Deposit · USDT
+              - paragraph [ref=f5e138]: c84d…f1b7
+            - generic [ref=f5e139]:
+              - generic [ref=f5e140]:
+                - paragraph [ref=f5e141]: "+200.00"
+                - paragraph [ref=f5e142]: $200.00
+              - generic [ref=f5e143]:
+                - generic [ref=f5e144]: Pending · 11 / 19
+                - paragraph [ref=f5e145]: 4 min ago
+              - button "Options for transaction c84d…f1b7" [ref=f5e146]
+          - article [ref=f5e151]:
+            - generic [ref=f5e155]:
+              - paragraph [ref=f5e156]: Withdrawal · BTC
+              - paragraph [ref=f5e157]: 9a1e…04cd
+            - generic [ref=f5e158]:
+              - generic [ref=f5e159]:
+                - paragraph [ref=f5e160]: −0.05200
+                - paragraph [ref=f5e161]: $6,312.80
+              - generic [ref=f5e162]:
+                - generic [ref=f5e163]: Confirmed
+                - paragraph [ref=f5e164]: Today, 18:12
+              - button "Options for transaction 9a1e…04cd" [ref=f5e165]
+          - article [ref=f5e170]:
+            - generic [ref=f5e174]:
+              - paragraph [ref=f5e175]: Deposit · ETH
+              - paragraph [ref=f5e176]: 0x7b2f…9e6a
+            - generic [ref=f5e177]:
+              - generic [ref=f5e178]:
+                - paragraph [ref=f5e179]: "+1.2000"
+                - paragraph [ref=f5e180]: $5,172.00
+              - generic [ref=f5e181]:
+                - generic [ref=f5e182]: Confirmed
+                - paragraph [ref=f5e183]: Today, 11:47
+              - button "Options for transaction 0x7b2f…9e6a" [ref=f5e184]
+          - article [ref=f5e189]:
+            - generic [ref=f5e193]:
+              - paragraph [ref=f5e194]: Deposit · SOL
+              - paragraph [ref=f5e195]: 4Fsm…Vw2q
+            - generic [ref=f5e196]:
+              - generic [ref=f5e197]:
+                - paragraph [ref=f5e198]: "+18.500"
+                - paragraph [ref=f5e199]: $3,848.00
+              - generic [ref=f5e200]:
+                - generic [ref=f5e201]: Confirmed
+                - paragraph [ref=f5e202]: Wed, 22:03
+              - button "Options for transaction 4Fsm…Vw2q" [ref=f5e203]
+          - article [ref=f5e208]:
+            - generic [ref=f5e212]:
+              - paragraph [ref=f5e213]: Withdrawal · USDT
+              - paragraph [ref=f5e214]: ae3c…77d0
+            - generic [ref=f5e215]:
+              - generic [ref=f5e216]:
+                - paragraph [ref=f5e217]: −450.00
+                - paragraph [ref=f5e218]: $450.00
+              - generic [ref=f5e219]:
+                - generic [ref=f5e220]: Confirmed
+                - paragraph [ref=f5e221]: Tue, 09:31
+              - button "Options for transaction ae3c…77d0" [ref=f5e222]
+          - article [ref=f5e227]:
+            - generic [ref=f5e231]:
+              - paragraph [ref=f5e232]: Deposit · BTC
+              - paragraph [ref=f5e233]: f05b…3c9e
+            - generic [ref=f5e234]:
+              - generic [ref=f5e235]:
+                - paragraph [ref=f5e236]: "+0.15000"
+                - paragraph [ref=f5e237]: $18,210.00
+              - generic [ref=f5e238]:
+                - generic [ref=f5e239]: Confirmed
+                - paragraph [ref=f5e240]: Mon, 16:58
+              - button "Options for transaction f05b…3c9e" [ref=f5e241]
+      - complementary [ref=f5e246]:
+        - tablist [ref=f5e247]:
+          - tab "Deposit" [selected] [ref=f5e248]
+          - tab "Withdraw" [ref=f5e249]
+        - generic [ref=f5e250]:
+          - generic [ref=f5e251]:
+            - paragraph [ref=f5e252]: Bitcoin
+            - paragraph [ref=f5e253]: Bitcoin network
+          - generic [ref=f5e254]: BTC
+        - generic [ref=f5e255]:
+          - img "Deposit address QR code" [ref=f5e256]
+          - generic [ref=f5e329]:
+            - paragraph [ref=f5e330]: Your BTC address
+            - paragraph [ref=f5e331]: bc1qxw4e8k2hv7n3m9t5rfu0ycad6s1lgp842zjq7h
+            - button "Copy address" [ref=f5e332]
+        - generic [ref=f5e336]:
+          - generic [ref=f5e337]:
+            - generic [ref=f5e338]: Minimum deposit
+            - generic [ref=f5e339]: 0.0001 BTC
+          - generic [ref=f5e340]:
+            - generic [ref=f5e341]: Credited after
+            - generic [ref=f5e342]: 2 confirmations
+          - generic [ref=f5e343]:
+            - generic [ref=f5e344]: Network fee
+            - generic [ref=f5e345]: Paid by sender
+        - paragraph [ref=f5e346]: Send only BTC on the Bitcoin network to this address. Deposits show as pending after the first confirmation.

@@ -1,0 +1,175 @@
+- generic [ref=f6e2]:
+  - navigation "Primary" [ref=f6e3]:
+    - link "Betrium home" [ref=f6e4] [cursor=pointer]:
+      - /url: /
+      - text: B
+    - link "Sportsbook" [ref=f6e5] [cursor=pointer]:
+      - /url: /sportsbook
+    - link "Casino" [ref=f6e12] [cursor=pointer]:
+      - /url: /casino
+    - link "Wallet" [ref=f6e16] [cursor=pointer]:
+      - /url: /wallet
+    - link "My Bets" [ref=f6e20] [cursor=pointer]:
+      - /url: /bets
+    - link "Settings" [ref=f6e23] [cursor=pointer]:
+      - /url: /settings
+    - link "Account" [ref=f6e28] [cursor=pointer]:
+      - /url: /settings
+      - text: DG
+  - banner [ref=f6e29]:
+    - generic [ref=f6e30]:
+      - generic [ref=f6e31]:
+        - textbox "Search" [ref=f6e35]:
+          - /placeholder: Search events, teams, games
+        - generic [ref=f6e36]: /
+      - generic [ref=f6e37]:
+        - link "Deposit" [ref=f6e38] [cursor=pointer]:
+          - /url: /wallet
+        - button "Notifications" [ref=f6e41]
+  - main [ref=f6e46]:
+    - generic [ref=f6e47]:
+      - generic [ref=f6e48]:
+        - heading "My Bets" [level=1] [ref=f6e49]
+        - paragraph [ref=f6e50]: 3 open positions · 4 settled in profit this week.
+      - button "Export" [ref=f6e52]
+    - generic [ref=f6e56]:
+      - generic [ref=f6e57] [cursor=pointer]:
+        - generic [ref=f6e62]: "Status: All"
+        - combobox "Status" [ref=f6e65]:
+          - option "All" [selected]
+          - option "Open"
+          - option "Won"
+          - option "Lost"
+          - option "Cashed out"
+      - generic [ref=f6e66] [cursor=pointer]:
+        - generic [ref=f6e72]: "Type: All"
+        - combobox "Type" [ref=f6e75]:
+          - option "All" [selected]
+          - option "Singles"
+          - option "Parlays"
+    - generic [ref=f6e76]:
+      - article [ref=f6e77]:
+        - generic [ref=f6e78]:
+          - generic [ref=f6e79]: Open
+          - generic [ref=f6e81]:
+            - generic [ref=f6e82]: Today, 21:04
+            - button "Options for bet B-20481" [ref=f6e83]
+        - generic [ref=f6e88]:
+          - heading "Aston Villa to win" [level=2] [ref=f6e89]
+          - paragraph [ref=f6e90]: Match Winner · live · B-20481
+        - generic [ref=f6e92]:
+          - generic [ref=f6e93]: Single
+          - generic [ref=f6e98]:
+            - generic [ref=f6e99]: /
+            - generic [ref=f6e100]: Stake 50.00 USDT
+          - generic [ref=f6e101]:
+            - generic [ref=f6e102]: /
+            - generic [ref=f6e103]: "@ 2.05"
+          - generic [ref=f6e104]:
+            - generic [ref=f6e105]: /
+            - generic [ref=f6e106]: Payout 102.50
+      - article [ref=f6e107]:
+        - generic [ref=f6e108]:
+          - generic [ref=f6e109]: Open
+          - generic [ref=f6e111]:
+            - generic [ref=f6e112]: Today, 18:40
+            - button "Options for bet B-20473" [ref=f6e113]
+        - generic [ref=f6e118]:
+          - heading "AS Roma −1.5" [level=2] [ref=f6e119]
+          - paragraph [ref=f6e120]: Asian Handicap · B-20473
+        - generic [ref=f6e122]:
+          - generic [ref=f6e123]: Single
+          - generic [ref=f6e128]:
+            - generic [ref=f6e129]: /
+            - generic [ref=f6e130]: Stake 0.0100 BTC
+          - generic [ref=f6e131]:
+            - generic [ref=f6e132]: /
+            - generic [ref=f6e133]: "@ 3.10"
+          - generic [ref=f6e134]:
+            - generic [ref=f6e135]: /
+            - generic [ref=f6e136]: Payout 0.0310
+      - article [ref=f6e137]:
+        - generic [ref=f6e138]:
+          - generic [ref=f6e139]: Open
+          - generic [ref=f6e141]:
+            - generic [ref=f6e142]: Today, 14:22
+            - button "Options for bet B-20466" [ref=f6e143]
+        - generic [ref=f6e148]:
+          - heading "Arsenal · Over 2.5 · BTTS Yes" [level=2] [ref=f6e149]
+          - paragraph [ref=f6e150]: Premier League combo · B-20466
+        - generic [ref=f6e152]:
+          - generic [ref=f6e153]: Parlay ×3
+          - generic [ref=f6e159]:
+            - generic [ref=f6e160]: /
+            - generic [ref=f6e161]: Stake 25.00 USDT
+          - generic [ref=f6e162]:
+            - generic [ref=f6e163]: /
+            - generic [ref=f6e164]: "@ 9.84"
+          - generic [ref=f6e165]:
+            - generic [ref=f6e166]: /
+            - generic [ref=f6e167]: Payout 246.00
+      - article [ref=f6e168]:
+        - generic [ref=f6e169]:
+          - generic [ref=f6e170]: Won
+          - generic [ref=f6e171]:
+            - generic [ref=f6e172]: Tue, 22:51
+            - button "Options for bet B-20412" [ref=f6e173]
+        - generic [ref=f6e178]:
+          - heading "Bayern Munich to win" [level=2] [ref=f6e179]
+          - paragraph [ref=f6e180]: Match Winner · B-20412
+        - generic [ref=f6e182]:
+          - generic [ref=f6e183]: Single
+          - generic [ref=f6e188]:
+            - generic [ref=f6e189]: /
+            - generic [ref=f6e190]: Stake 100.00 USDT
+          - generic [ref=f6e191]:
+            - generic [ref=f6e192]: /
+            - generic [ref=f6e193]: "@ 1.57"
+          - generic [ref=f6e194]:
+            - generic [ref=f6e195]: /
+            - generic [ref=f6e196]: Payout 157.00
+      - article [ref=f6e197]:
+        - generic [ref=f6e198]:
+          - generic [ref=f6e199]: Cashed out
+          - generic [ref=f6e200]:
+            - generic [ref=f6e201]: Tue, 20:14
+            - button "Options for bet B-20397" [ref=f6e202]
+        - generic [ref=f6e207]:
+          - heading "Real Madrid · Under 3.5" [level=2] [ref=f6e208]
+          - paragraph [ref=f6e209]: Total Goals · B-20397
+        - generic [ref=f6e211]:
+          - generic [ref=f6e212]: Single
+          - generic [ref=f6e217]:
+            - generic [ref=f6e218]: /
+            - generic [ref=f6e219]: Stake 0.2500 ETH
+          - generic [ref=f6e220]:
+            - generic [ref=f6e221]: /
+            - generic [ref=f6e222]: "@ 1.90"
+          - generic [ref=f6e223]:
+            - generic [ref=f6e224]: /
+            - generic [ref=f6e225]: Payout 0.3180
+      - article [ref=f6e226]:
+        - generic [ref=f6e227]:
+          - generic [ref=f6e228]: Lost
+          - generic [ref=f6e229]:
+            - generic [ref=f6e230]: Sun, 23:02
+            - button "Options for bet B-20371" [ref=f6e231]
+        - generic [ref=f6e236]:
+          - heading "PSG to win" [level=2] [ref=f6e237]
+          - paragraph [ref=f6e238]: Match Winner · B-20371
+        - generic [ref=f6e240]:
+          - generic [ref=f6e241]: Single
+          - generic [ref=f6e246]:
+            - generic [ref=f6e247]: /
+            - generic [ref=f6e248]: Stake 40.00 USDT
+          - generic [ref=f6e249]:
+            - generic [ref=f6e250]: /
+            - generic [ref=f6e251]: "@ 1.72"
+          - generic [ref=f6e252]:
+            - generic [ref=f6e253]: /
+            - generic [ref=f6e254]: Payout —
+    - navigation "Pagination" [ref=f6e255]:
+      - button "Previous page" [ref=f6e256]: ‹
+      - button "1" [ref=f6e257]
+      - button "2" [ref=f6e258]
+      - button "Next page" [ref=f6e259]: ›

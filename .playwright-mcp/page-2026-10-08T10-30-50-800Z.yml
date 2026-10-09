@@ -1,0 +1,156 @@
+- generic [ref=f4e2]:
+  - navigation "Primary" [ref=f4e3]:
+    - link "Betrium home" [ref=f4e4] [cursor=pointer]:
+      - /url: /
+      - text: B
+    - link "Sportsbook" [ref=f4e5] [cursor=pointer]:
+      - /url: /sportsbook
+    - link "Casino" [ref=f4e12] [cursor=pointer]:
+      - /url: /casino
+    - link "Wallet" [ref=f4e16] [cursor=pointer]:
+      - /url: /wallet
+    - link "My Bets" [ref=f4e20] [cursor=pointer]:
+      - /url: /bets
+    - link "Settings" [ref=f4e23] [cursor=pointer]:
+      - /url: /settings
+    - link "Account" [ref=f4e28] [cursor=pointer]:
+      - /url: /settings
+      - text: DG
+  - banner [ref=f4e29]:
+    - generic [ref=f4e30]:
+      - generic [ref=f4e31]:
+        - textbox "Search" [ref=f4e35]:
+          - /placeholder: Search events, teams, games
+        - generic [ref=f4e36]: /
+      - generic [ref=f4e37]:
+        - link "Deposit" [ref=f4e38] [cursor=pointer]:
+          - /url: /wallet
+        - button "Notifications" [ref=f4e41]
+  - main [ref=f4e46]:
+    - generic [ref=f4e47]:
+      - generic [ref=f4e48]:
+        - heading "Casino" [level=1] [ref=f4e49]
+        - paragraph [ref=f4e50]: Originals and live tables, every original verifiable hand by hand.
+      - 'button "Sort: Popular" [ref=f4e52]'
+    - generic [ref=f4e55] [cursor=pointer]:
+      - generic [ref=f4e60]: "Category: All"
+      - combobox "Category" [ref=f4e63]:
+        - option "All" [selected]
+        - option "Originals"
+        - option "Live"
+        - option "Table"
+        - option "New"
+    - generic [ref=f4e64]:
+      - article [ref=f4e65]:
+        - generic [ref=f4e66]:
+          - generic [ref=f4e67]: Hot
+          - generic [ref=f4e68]:
+            - generic [ref=f4e69]: 1,243 playing
+            - button "More options for Aurum Crash" [ref=f4e75]
+        - link [ref=f4e80] [cursor=pointer]:
+          - /url: /casino/aurum-crash
+          - heading "Aurum Crash" [level=2] [ref=f4e81]
+          - paragraph [ref=f4e82]: Betrium Originals
+        - generic [ref=f4e84]:
+          - generic [ref=f4e85]: RTP 99.0%
+          - generic [ref=f4e90]:
+            - generic [ref=f4e91]: /
+            - generic [ref=f4e92]: Max 10,000×
+          - generic [ref=f4e96]:
+            - generic [ref=f4e97]: /
+            - generic [ref=f4e98]: Provably fair
+      - article [ref=f4e102]:
+        - generic [ref=f4e103]:
+          - generic [ref=f4e104]: Original
+          - generic [ref=f4e105]:
+            - generic [ref=f4e106]: 866 playing
+            - button "More options for Gilded Dice" [ref=f4e112]
+        - link [ref=f4e117] [cursor=pointer]:
+          - /url: /casino/gilded-dice
+          - heading "Gilded Dice" [level=2] [ref=f4e118]
+          - paragraph [ref=f4e119]: Betrium Originals
+        - generic [ref=f4e121]:
+          - generic [ref=f4e122]: RTP 98.5%
+          - generic [ref=f4e127]:
+            - generic [ref=f4e128]: /
+            - generic [ref=f4e129]: Max 9,900×
+          - generic [ref=f4e133]:
+            - generic [ref=f4e134]: /
+            - generic [ref=f4e135]: Provably fair
+      - article [ref=f4e139]:
+        - generic [ref=f4e140]:
+          - generic [ref=f4e141]: Hot
+          - generic [ref=f4e142]:
+            - generic [ref=f4e143]: 721 playing
+            - button "More options for Plinko Royale" [ref=f4e149]
+        - link [ref=f4e154] [cursor=pointer]:
+          - /url: /casino/plinko-royale
+          - heading "Plinko Royale" [level=2] [ref=f4e155]
+          - paragraph [ref=f4e156]: Betrium Originals
+        - generic [ref=f4e158]:
+          - generic [ref=f4e159]: RTP 99.0%
+          - generic [ref=f4e164]:
+            - generic [ref=f4e165]: /
+            - generic [ref=f4e166]: Max 1,000×
+          - generic [ref=f4e170]:
+            - generic [ref=f4e171]: /
+            - generic [ref=f4e172]: Provably fair
+      - article [ref=f4e176]:
+        - generic [ref=f4e177]:
+          - generic [ref=f4e178]: Original
+          - generic [ref=f4e179]:
+            - generic [ref=f4e180]: 534 playing
+            - button "More options for Mines of Midas" [ref=f4e186]
+        - link [ref=f4e191] [cursor=pointer]:
+          - /url: /casino/mines-of-midas
+          - heading "Mines of Midas" [level=2] [ref=f4e192]
+          - paragraph [ref=f4e193]: Betrium Originals
+        - generic [ref=f4e195]:
+          - generic [ref=f4e196]: RTP 97.0%
+          - generic [ref=f4e201]:
+            - generic [ref=f4e202]: /
+            - generic [ref=f4e203]: Max 5,280×
+          - generic [ref=f4e207]:
+            - generic [ref=f4e208]: /
+            - generic [ref=f4e209]: Provably fair
+      - article [ref=f4e213]:
+        - generic [ref=f4e214]:
+          - generic [ref=f4e215]: New
+          - generic [ref=f4e216]:
+            - generic [ref=f4e217]: 412 playing
+            - button "More options for Limbo Noir" [ref=f4e223]
+        - link [ref=f4e228] [cursor=pointer]:
+          - /url: /casino/limbo-noir
+          - heading "Limbo Noir" [level=2] [ref=f4e229]
+          - paragraph [ref=f4e230]: Betrium Originals
+        - generic [ref=f4e232]:
+          - generic [ref=f4e233]: RTP 99.0%
+          - generic [ref=f4e238]:
+            - generic [ref=f4e239]: /
+            - generic [ref=f4e240]: Max 1,000,000×
+          - generic [ref=f4e244]:
+            - generic [ref=f4e245]: /
+            - generic [ref=f4e246]: Provably fair
+      - article [ref=f4e250]:
+        - generic [ref=f4e251]:
+          - generic [ref=f4e252]: Live
+          - generic [ref=f4e254]:
+            - generic [ref=f4e255]: 388 playing
+            - button "More options for Velvet Roulette" [ref=f4e261]
+        - link [ref=f4e266] [cursor=pointer]:
+          - /url: /casino/velvet-roulette
+          - heading "Velvet Roulette" [level=2] [ref=f4e267]
+          - paragraph [ref=f4e268]: Northlight Live
+        - generic [ref=f4e270]:
+          - generic [ref=f4e271]: RTP 97.3%
+          - generic [ref=f4e276]:
+            - generic [ref=f4e277]: /
+            - generic [ref=f4e278]: Max 35×
+          - generic [ref=f4e282]:
+            - generic [ref=f4e283]: /
+            - generic [ref=f4e284]: Live dealer
+    - navigation "Pagination" [ref=f4e288]:
+      - button "Previous page" [ref=f4e289]: ‹
+      - button "1" [ref=f4e290]
+      - button "2" [ref=f4e291]
+      - button "Next page" [ref=f4e292]: ›

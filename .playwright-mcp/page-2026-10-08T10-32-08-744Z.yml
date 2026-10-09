@@ -1,0 +1,220 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic [ref=f8e4]:
+        - link "BETRIUM" [ref=f8e5] [cursor=pointer]:
+          - /url: /
+        - navigation "Marketing" [ref=f8e6]:
+          - link "Sportsbook" [ref=f8e7] [cursor=pointer]:
+            - /url: /sportsbook
+          - link "Casino" [ref=f8e8] [cursor=pointer]:
+            - /url: /casino
+          - link "Provably fair" [ref=f8e9] [cursor=pointer]:
+            - /url: /casino/aurum-crash
+          - link "Wallet" [ref=f8e10] [cursor=pointer]:
+            - /url: /wallet
+        - generic [ref=f8e11]:
+          - link "Log in" [ref=f8e12] [cursor=pointer]:
+            - /url: /sportsbook
+          - link "Launch app" [ref=f8e13] [cursor=pointer]:
+            - /url: /sportsbook
+    - generic [ref=f8e15]:
+      - generic [ref=f8e16]:
+        - generic [ref=f8e17]: Non-custodial options · Provably fair · 18+
+        - heading "Bet in crypto. Settle on-chain." [level=1] [ref=f8e20]
+        - paragraph [ref=f8e22]: "Betrium is a sportsbook and casino built on cryptographic receipts: live odds across 40+ sports, originals you can verify hand by hand, and withdrawals that clear in minutes — not days."
+        - generic [ref=f8e23]:
+          - link "Launch app" [ref=f8e24] [cursor=pointer]:
+            - /url: /sportsbook
+          - link "Explore casino" [ref=f8e27] [cursor=pointer]:
+            - /url: /casino
+      - generic "Live markets right now" [ref=f8e29]:
+        - link "64' Aston Villa – Feyenoord Europa League 1.36" [ref=f8e30] [cursor=pointer]:
+          - /url: /sportsbook/aston-villa-feyenoord
+          - generic [ref=f8e31]: 64'
+          - generic [ref=f8e33]:
+            - generic [ref=f8e34]: Aston Villa – Feyenoord
+            - generic [ref=f8e35]: Europa League
+          - generic [ref=f8e36]: "1.36"
+        - link "23' Real Betis – FC Porto Europa League 2.55" [ref=f8e37] [cursor=pointer]:
+          - /url: /sportsbook/real-betis-porto
+          - generic [ref=f8e38]: 23'
+          - generic [ref=f8e40]:
+            - generic [ref=f8e41]: Real Betis – FC Porto
+            - generic [ref=f8e42]: Europa League
+          - generic [ref=f8e43]: "2.55"
+        - link "78' AS Roma – Fenerbahçe Europa League 1.22" [ref=f8e44] [cursor=pointer]:
+          - /url: /sportsbook/roma-fenerbahce
+          - generic [ref=f8e45]: 78'
+          - generic [ref=f8e47]:
+            - generic [ref=f8e48]: AS Roma – Fenerbahçe
+            - generic [ref=f8e49]: Europa League
+          - generic [ref=f8e50]: "1.22"
+        - link "SOON Arsenal – Chelsea Premier League 1.95" [ref=f8e51] [cursor=pointer]:
+          - /url: /sportsbook/arsenal-chelsea
+          - generic [ref=f8e52]: SOON
+          - generic [ref=f8e53]:
+            - generic [ref=f8e54]: Arsenal – Chelsea
+            - generic [ref=f8e55]: Premier League
+          - generic [ref=f8e56]: "1.95"
+        - link "SOON Manchester City – Brighton Premier League 1.44" [ref=f8e57] [cursor=pointer]:
+          - /url: /sportsbook/man-city-brighton
+          - generic [ref=f8e58]: SOON
+          - generic [ref=f8e59]:
+            - generic [ref=f8e60]: Manchester City – Brighton
+            - generic [ref=f8e61]: Premier League
+          - generic [ref=f8e62]: "1.44"
+        - link "SOON Liverpool – Newcastle Premier League 1.68" [ref=f8e63] [cursor=pointer]:
+          - /url: /sportsbook/liverpool-newcastle
+          - generic [ref=f8e64]: SOON
+          - generic [ref=f8e65]:
+            - generic [ref=f8e66]: Liverpool – Newcastle
+            - generic [ref=f8e67]: Premier League
+          - generic [ref=f8e68]: "1.68"
+    - generic [ref=f8e71]:
+      - generic [ref=f8e73]:
+        - generic [ref=f8e74]:
+          - heading "A sportsbook that moves at chain speed" [level=2] [ref=f8e82]
+          - paragraph [ref=f8e83]: Live prices across 40+ sports, re-priced in milliseconds over WebSockets. Lock odds at slip time, cash out mid-match, and watch settlement hit your wallet — not a support queue.
+        - generic [aria-hidden] [ref=f8e86]:
+          - generic [ref=f8e87]:
+            - generic [ref=f8e88]: LIVE 64′
+            - generic [ref=f8e90]: Europa League
+          - paragraph [ref=f8e91]: Aston Villa – Feyenoord
+          - paragraph [ref=f8e92]: 2 – 1 · implied 71%
+          - generic [ref=f8e93]:
+            - generic [ref=f8e94] [cursor=pointer]:
+              - generic [ref=f8e95]: "1"
+              - generic [ref=f8e96]: "1.36"
+            - generic [ref=f8e97] [cursor=pointer]:
+              - generic [ref=f8e98]: X
+              - generic [ref=f8e99]: "5.25"
+            - generic [ref=f8e100] [cursor=pointer]:
+              - generic [ref=f8e101]: "2"
+              - generic [ref=f8e102]: "8.60"
+      - generic [ref=f8e104]:
+        - generic [ref=f8e105]:
+          - heading "Casino originals you can audit" [level=2] [ref=f8e110]
+          - paragraph [ref=f8e111]: Every original commits to a hashed server seed before the round starts. Mix in your own client seed, replay any result locally, and verify the math yourself — no trust required.
+        - generic [aria-hidden] [ref=f8e114]:
+          - generic [ref=f8e115]:
+            - generic [ref=f8e116]: Aurum Crash
+            - generic [ref=f8e117]: 2.41×
+          - generic [ref=f8e122]:
+            - generic [ref=f8e123]: Provably fair
+            - generic [ref=f8e127]: RTP 99.0%
+      - generic [ref=f8e129]:
+        - generic [ref=f8e130]:
+          - heading "Your crypto, in and out in minutes" [level=2] [ref=f8e135]
+          - paragraph [ref=f8e136]: Deposit on six chains, bet in any balance, withdraw to your own keys. Median payout clears in under 90 seconds, with 2FA and address allowlists standing in front of every send.
+        - generic [aria-hidden] [ref=f8e139]:
+          - generic [ref=f8e140]:
+            - generic [ref=f8e141]: Bitcoin
+            - generic [ref=f8e142]: +1.8% 24h
+          - paragraph [ref=f8e143]: 0.28431 BTC
+          - paragraph [ref=f8e144]: $34,516.40
+          - generic [ref=f8e145]:
+            - generic [ref=f8e146]: Withdrawal
+            - generic [ref=f8e147]: 87s median
+    - paragraph [ref=f8e155]: Every bet is a transaction. Every payout is proof.
+    - generic [ref=f8e158]:
+      - generic [ref=f8e159]:
+        - paragraph [ref=f8e160]: 1,400+
+        - paragraph [ref=f8e161]: markets priced daily
+      - generic [ref=f8e162]:
+        - paragraph [ref=f8e163]: 87s
+        - paragraph [ref=f8e164]: median withdrawal
+      - generic [ref=f8e165]:
+        - paragraph [ref=f8e166]: 99.0%
+        - paragraph [ref=f8e167]: RTP on originals
+      - generic [ref=f8e168]:
+        - paragraph [ref=f8e169]: "6"
+        - paragraph [ref=f8e170]: chains supported
+    - generic [ref=f8e172]:
+      - generic [ref=f8e173]:
+        - heading "Engineered like an exchange" [level=2] [ref=f8e174]
+        - paragraph [ref=f8e175]: Real money moves through this platform, and the architecture treats that with the weight it deserves.
+      - generic [ref=f8e176]:
+        - generic [ref=f8e178]:
+          - heading "Provably fair by construction" [level=3] [ref=f8e182]
+          - paragraph [ref=f8e183]: SHA-256 seed commitments published before every round; seeds revealed on rotation so any outcome can be recomputed.
+        - generic [ref=f8e185]:
+          - heading "Cold-first custody" [level=3] [ref=f8e189]
+          - paragraph [ref=f8e190]: Hot wallets hold operating float only. The rest sits in multi-sig cold storage with allowlisted, rate-limited withdrawals.
+        - generic [ref=f8e192]:
+          - heading "Built for the spike" [level=3] [ref=f8e195]
+          - paragraph [ref=f8e196]: Odds feeds, bet placement and settlement run on separate paths, so a cup-final surge never queues your cashout.
+      - generic [ref=f8e197]:
+        - paragraph [ref=f8e198]: Connect with · Settle on
+        - generic [ref=f8e199]:
+          - generic [ref=f8e200]: MetaMask
+          - generic [ref=f8e201]: WalletConnect
+          - generic [ref=f8e202]: Phantom
+          - generic [ref=f8e203]: Ledger
+          - generic [ref=f8e204]: Trust Wallet
+          - generic [ref=f8e205]: Coinbase Wallet
+          - generic [ref=f8e206]: Bitcoin
+          - generic [ref=f8e207]: Ethereum
+          - generic [ref=f8e208]: Solana
+          - generic [ref=f8e209]: Tron
+          - generic [ref=f8e210]: Polygon
+          - generic [ref=f8e211]: BNB Chain
+    - generic [ref=f8e214]:
+      - heading "Take a seat at the table" [level=2] [ref=f8e215]
+      - paragraph [ref=f8e216]: Connect a wallet, make a first deposit, and you are live on 1,400 markets in under a minute.
+      - link "Create account" [ref=f8e217] [cursor=pointer]:
+        - /url: /sportsbook
+    - contentinfo [ref=f8e220]:
+      - generic [ref=f8e221]:
+        - generic [ref=f8e222]:
+          - paragraph [ref=f8e223]: BETRIUM
+          - paragraph [ref=f8e224]: Crypto-native sportsbook and casino. Provably fair games, on-chain settlement, cold-first custody.
+        - navigation "Product" [ref=f8e225]:
+          - paragraph [ref=f8e226]: Product
+          - list [ref=f8e227]:
+            - listitem [ref=f8e228]:
+              - link "Sportsbook" [ref=f8e229] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e230]:
+              - link "Live betting" [ref=f8e231] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e232]:
+              - link "Casino originals" [ref=f8e233] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e234]:
+              - link "Wallet" [ref=f8e235] [cursor=pointer]:
+                - /url: /sportsbook
+        - navigation "Resources" [ref=f8e236]:
+          - paragraph [ref=f8e237]: Resources
+          - list [ref=f8e238]:
+            - listitem [ref=f8e239]:
+              - link "Provably fair" [ref=f8e240] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e241]:
+              - link "API status" [ref=f8e242] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e243]:
+              - link "Fee schedule" [ref=f8e244] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e245]:
+              - link "Help center" [ref=f8e246] [cursor=pointer]:
+                - /url: /sportsbook
+        - navigation "Legal" [ref=f8e247]:
+          - paragraph [ref=f8e248]: Legal
+          - list [ref=f8e249]:
+            - listitem [ref=f8e250]:
+              - link "Terms of service" [ref=f8e251] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e252]:
+              - link "Privacy" [ref=f8e253] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e254]:
+              - link "AML policy" [ref=f8e255] [cursor=pointer]:
+                - /url: /sportsbook
+            - listitem [ref=f8e256]:
+              - link "Responsible play" [ref=f8e257] [cursor=pointer]:
+                - /url: /sportsbook
+      - generic [ref=f8e258]:
+        - generic [ref=f8e259]: © 2026 Betrium Labs. All rights reserved.
+        - generic [ref=f8e260]: 18+ · Please play responsibly.
+  - alert [ref=f8e264]

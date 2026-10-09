@@ -1,0 +1,49 @@
+
+> betrium@0.1.0 build
+> next build
+
+   ▲ Next.js 15.1.6
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/33) ...
+   Generating static pages (8/33) 
+   Generating static pages (16/33) 
+   Generating static pages (24/33) 
+ ✓ Generating static pages (33/33)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/3) ...
+ ✓ Exporting (3/3)
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    5.2 kB          121 kB
+├ ○ /_not-found                          979 B           106 kB
+├ ○ /bets                                3.61 kB         115 kB
+├ ○ /casino                              2.21 kB         118 kB
+├ ● /casino/[slug]                       3.8 kB          120 kB
+├   ├ /casino/aurum-crash
+├   ├ /casino/gilded-dice
+├   ├ /casino/plinko-royale
+├   └ [+9 more paths]
+├ ○ /icon.svg                            0 B                0 B
+├ ○ /live                                139 B           120 kB
+├ ○ /settings                            6.21 kB         112 kB
+├ ○ /sportsbook                          139 B           120 kB
+├ ● /sportsbook/[slug]                   5.39 kB         122 kB
+├   ├ /sportsbook/aston-villa-feyenoord
+├   ├ /sportsbook/real-betis-porto
+├   ├ /sportsbook/roma-fenerbahce
+├   └ [+7 more paths]
+└ ○ /wallet                              5.14 kB         116 kB
++ First Load JS shared by all            105 kB
+  ├ chunks/4bd1b696-3dabe2e0394a4e2d.js  52.9 kB
+  ├ chunks/517-11e495e31e4e020b.js       50.5 kB
+  └ other shared chunks (total)          1.91 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

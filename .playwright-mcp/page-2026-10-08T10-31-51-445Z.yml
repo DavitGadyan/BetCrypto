@@ -1,0 +1,84 @@
+- generic [ref=f7e2]:
+  - navigation "Primary" [ref=f7e3]:
+    - link "Betrium home" [ref=f7e4] [cursor=pointer]:
+      - /url: /
+      - text: B
+    - link "Sportsbook" [ref=f7e5] [cursor=pointer]:
+      - /url: /sportsbook
+    - link "Casino" [ref=f7e12] [cursor=pointer]:
+      - /url: /casino
+    - link "Wallet" [ref=f7e16] [cursor=pointer]:
+      - /url: /wallet
+    - link "My Bets" [ref=f7e20] [cursor=pointer]:
+      - /url: /bets
+    - link "Settings" [ref=f7e23] [cursor=pointer]:
+      - /url: /settings
+    - link "Account" [ref=f7e28] [cursor=pointer]:
+      - /url: /settings
+      - text: DG
+  - banner [ref=f7e29]:
+    - generic [ref=f7e30]:
+      - generic [ref=f7e31]:
+        - textbox "Search" [ref=f7e35]:
+          - /placeholder: Search events, teams, games
+        - generic [ref=f7e36]: /
+      - generic [ref=f7e37]:
+        - link "Deposit" [ref=f7e38] [cursor=pointer]:
+          - /url: /wallet
+        - button "Notifications" [ref=f7e41]
+  - main [ref=f7e46]:
+    - navigation "Breadcrumb" [ref=f7e47]:
+      - link "Casino" [ref=f7e51] [cursor=pointer]:
+        - /url: /casino
+      - generic [ref=f7e52]: /
+      - generic [ref=f7e53]: Betrium Originals
+      - generic [ref=f7e54]: /
+      - generic [ref=f7e55]: Aurum Crash
+    - generic [ref=f7e56]:
+      - heading "Aurum Crash" [level=1] [ref=f7e57]
+      - generic [ref=f7e58]: RTP 99.0%
+      - generic [ref=f7e59]: Provably fair
+    - generic [ref=f7e60]:
+      - generic [ref=f7e67]:
+        - paragraph [ref=f7e68]: Server seed
+        - paragraph [ref=f7e69]: a3f1c88d6b2e49075c… (hashed)
+      - generic [ref=f7e75]:
+        - paragraph [ref=f7e76]: Client seed · nonce
+        - generic [ref=f7e77]:
+          - generic [ref=f7e78]: dg-2026-10-08-vTq9
+          - generic [ref=f7e80]:
+            - generic [ref=f7e81]: /
+            - generic [ref=f7e82]: "#1847"
+    - tablist "Game sections" [ref=f7e83]:
+      - tab "Game" [selected] [ref=f7e84]
+      - tab "Provably Fair" [ref=f7e88]
+      - tab "Recent Rounds" [ref=f7e92]
+      - tab "Limits" [ref=f7e97]
+    - generic [ref=f7e102]:
+      - generic [ref=f7e103]:
+        - generic [ref=f7e104]:
+          - generic [ref=f7e105]: Last round
+          - generic [ref=f7e106]: 2.41×
+        - generic "Recent multipliers" [ref=f7e111]:
+          - generic [ref=f7e112]: 2.41×
+          - generic [ref=f7e113]: 1.08×
+          - generic [ref=f7e114]: 12.44×
+          - generic [ref=f7e115]: 1.62×
+          - generic [ref=f7e116]: 1.00×
+          - generic [ref=f7e117]: 3.87×
+      - generic [ref=f7e118]:
+        - generic [ref=f7e119]:
+          - text: Bet amount
+          - generic [ref=f7e120]:
+            - textbox "Bet amount in USDT" [ref=f7e121]: "10.00"
+            - generic [ref=f7e122]: USDT
+        - generic [ref=f7e123]:
+          - text: Auto cashout
+          - generic [ref=f7e124]:
+            - textbox "Auto cashout multiplier" [ref=f7e125]: "2.00"
+            - generic [ref=f7e126]: ×
+        - generic [ref=f7e127]:
+          - text: Payout on win
+          - generic [ref=f7e128]: 20.00 USDT
+        - button "Place bet — next round" [ref=f7e129]
+        - paragraph [ref=f7e130]: Round seeds committed before launch · 18+
